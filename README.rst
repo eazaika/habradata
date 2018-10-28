@@ -2,7 +2,9 @@
 Data microservice for habraparser
 =======
 Install
+
 $ git clone https://github.com/eazaika/habradata.git && cd habradata 
+
 $ python3 setup.py install
 
 Use
