@@ -1,0 +1,4 @@
+*.pyc
+/build/
+/dist/
+/habradata.egg-info/
