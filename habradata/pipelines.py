@@ -23,7 +23,6 @@ class MongoDBPipeline(object):
                 raise DropItem("Missing {0}!".format(data))
         if valid:
             self.collection.insert(dict(item))
-#может сделать сообщение об успешной записи более информативным?
-            log.msg("OK!",
+            log.msg("Question added to MongoDB database!",
                     level=log.DEBUG, spider=spider)
         return item
